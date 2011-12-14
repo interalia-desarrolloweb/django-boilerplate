@@ -1,0 +1,22 @@
+# -*- coding: utf-8 -*-
+
+"""
+    ACDelco local settings
+    Author  :   Alvaro Lizama Molina <alvaro.lizama@interalia.net>
+"""
+
+## DEBUG
+#############################################################
+DEBUG = True
+TEMPLATE_DEBUG = True
+LOCAL = True
+
+## DATABASES
+#############################################################
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': 'database.sqlite',                     
+    }
+}
+
